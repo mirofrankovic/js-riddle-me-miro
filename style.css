@@ -1,6 +1,19 @@
-.red{
-    color:red;
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100vh;      
 }
-.blue{
-    color:blueviolet;
+body {
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.topic {
+    color:red;
+    font-size: 20px;
+}
+#btn1 {
+    background-color: grey;
+    color: green;
+
 }
