@@ -12,17 +12,21 @@
 </head>
 <body>
 <div class="grid">
-<div id="quiz">
+<div id="quiz-container">
 <div class="topic text-center">Riddle me this</div>
 <hr style="margin-bottom: 20px">
 <div class="flex-box">
 <div id="username" class="username_class">Hallo..."username"</div>
 
-<div id="question_counter" class="question_counter_class">Ca you beat the riddle..."question"?</div>
+<button id="starQuiz-btn" class="btn start-btn">Ready for your 10 "questions"?</button>
 
-<div id="loadquestion" class="loadquestion_class">What is this?</div>
+<div id="startQuestion" class="startQuestion_class">My question is here..."question"?</div>
 
-<div id="attempts_question" class="attempts_question_class">Ooops try again!!!</div>
+<!--<div id="loadNextQuestion" class="loadNextQuestion_class">What is this?</div> -->
+
+<div id="goNextQuestion" class="goNextQuestion_class">Ooops try again!!!</div>
+
+<div id="selectedAnswer" class="selectedAnswer"></div>
 
 <div id="score" class="score_class">Your score is...</div>
 </div>
@@ -49,5 +53,6 @@
 </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>  
  <script src="app.js" type="text/javascript"></script> 
+ <script type="text/javascript" src="data/application.json"></script>
 </body>
 </html>
